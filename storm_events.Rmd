@@ -1,0 +1,20 @@
+# Analysis of 2019 Storm Events in USA
+
+**Author**
+
+[Justin Ferguson GitHub](https://github.com/j-b-ferguson)
+
+[Justin Ferguson LinkedIn](https://www.linkedin.com/in/jf2749/)
+
+[Contact](mailto:justin.benjamin.ferguson@gmail.com?subject=GitHub%20Enquiry)
+
+```{r} 
+knitr::opts_chunk$get()$engine
+knitr::opts_chunk$get()$engine.path
+knitr::opts_chunk$get()$engine.opts
+```
+
+```{sas}
+proc print data='C:\Users\fergi\Documents\usa-storm-events-2019-analysis\Data Sets\DAMAGE.csv' (obs=3);
+run;
+```
