@@ -1651,7 +1651,7 @@ var _ie64 = _info.indexOf("x64") > 0
 
 <div class="branch">
 <a name="IDX"></a>
-<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" bordercolor="#ffffff" summary="Page Layout">
 <tr>
 <td class="c systemtitle">Two Independent Sample T-Test of Property Damage given Tornado Severity (EF0/EF1)</td>
 </tr>
