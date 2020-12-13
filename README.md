@@ -86,7 +86,7 @@ Consider figures 3 and 4 below showing kernels of each sample against a theore
 <p align="center">
   <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Distribution%20of%20Property%20Damage%20by%20EF0_EF1%20Tornadoes.svg">
 </p>
-<p align="center">Figure 3: Distribution curves of the EF0 and EF1 kernels against the normal distribution with <br> actual data points for both types below.</p>
+<p align="center">Figure 3: Distribution curves of the EF0 and EF1 kernels against the normal distribution <br> with actual data points for both types below.</p>
 
 <p align="center">
   <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/QQplot%20of%20Property%20Damage%20given%20Tornado%20Severity.svg">
