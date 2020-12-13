@@ -5,9 +5,9 @@
 <a href="mailto:justin.benjamin.ferguson@gmail.com?subject=GitHub%20Enquiry"><p align="center">Contact</p></a>
 
 <h2 align="center"> Introduction </h2>
-Analysis of data on past weather events is a vitally important method to help understand, predict, and plan for future events. Of particular importance is to better understand the impact that storm events may have on property, crops, and human life. One such phenomenon unique to storm events is that of the tornado. They are known for their destructive prowess and come in many flavours.
+<p align="justify">Analysis of data on past weather events is a vitally important method to help understand, predict, and plan for future events. Of particular importance is to better understand the impact that storm events may have on property, crops, and human life. One such phenomenon unique to storm events is that of the tornado. They are known for their destructive prowess and come in many flavours.
 
-This report will analyse and quantify the impact of storm events in 2019, in the USA, by focusing solely on tornadoes as a type of storm event.
+This report will analyse and quantify the impact of storm events in 2019, in the USA, by focusing solely on tornadoes as a type of storm event.</p>
 
 ## Methods
 
