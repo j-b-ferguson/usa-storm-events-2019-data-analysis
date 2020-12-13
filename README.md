@@ -224,20 +224,27 @@
    </body>
 </html>
 
+
+
+
+
 <html>
 <head>
-
 <div class="branch">
-<a name="IDX"></a>
-<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+
+<table>
 <tr>
-<td class="c systemtitle">Contingency Table of Fatality Type by Fatality Location Category</td>
+<td>Contingency Table of Fatality Type by Fatality Location Category</td>
 </tr>
-</table><br>
+</table>
+
+<br> 
+
 <div>
+<div align="center">   
+<table><tr>
+<td>
 <div align="center">
-<table  summary="Page Layout"><tr>
-<td class="c t"><div align="center">
 <table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Freq: Cross-Tabular Freq Table">
 <colgroup>
 <col>
