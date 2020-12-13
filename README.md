@@ -1,5 +1,11 @@
 # Analysis of 2019 Storm Events in USA
 
+[Justin Ferguson GitHub](https://github.com/j-b-ferguson)
+
+[Justin Ferguson LinkedIn](https://www.linkedin.com/in/jf2749/)
+
+[Contact](mailto:justin.benjamin.ferguson@gmail.com?subject=GitHub%20Enquiry)
+
 ## Introduction
 Analysis of data on past weather events is a vitally important method to help understand, predict, and plan for future events. Of particular importance is to better understand the impact that storm events may have on property, crops, and human life. One such phenomenon unique to storm events is that of the tornado. They are known for their destructive prowess and come in many flavours.
 
