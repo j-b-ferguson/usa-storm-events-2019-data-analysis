@@ -1,9 +1,8 @@
 # usa-storm-events-2019-analysis
 
-
 <html>
 <body>
-<p style="text-align:center;">Centered paragraph.</p>
+<p align="center">Centered paragraph.</p>
 <div align="center">
 <table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Ttest: Statistics">
 <colgroup>
@@ -74,10 +73,10 @@
 </tbody>
 </table>
 </div>
-</div>
+
+
+
 <br>
-<a name="IDX1"></a>
-<div>
 <div align="center">
 <table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Ttest: Confidence Limits">
 <colgroup>
@@ -146,10 +145,8 @@
 </tbody>
 </table>
 </div>
-</div>
 <br>
-<a name="IDX2"></a>
-<div>
+
 <div align="center">
 <table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Ttest: T-Tests">
 <colgroup>
@@ -188,10 +185,9 @@
 </tbody>
 </table>
 </div>
-</div>
+
 <br>
-<a name="IDX3"></a>
-<div>
+
 <div align="center">
 <table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Ttest: Equality of Variances">
 <colgroup>
@@ -226,8 +222,6 @@
 </tbody>
 </table>
 </div>
-</div>
 <br>
-</div>
 </body>
 </html>
