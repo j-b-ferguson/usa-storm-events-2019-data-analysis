@@ -105,3 +105,5 @@ As in figure 5 below, the <i>p</i>-value for the test of homogeneity of variance
   <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/T-test%20of%20Property%20Damage%20given%20Tornado%20Severity.svg">  
 </p>
 <p align="center">Figure 5: A summary of the two independent sample t-test of property damage given <br> tornado type. Also shown is the test for equality of variances.</p>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=I_{\alpha}&space;=&space;\sum_{i}\frac{f_{\alpha}&plus;t_{\alpha}}{f_{i}&plus;t_{i}}." target="_blank"><img src="https://latex.codecogs.com/svg.latex?I_{\alpha}&space;=&space;\sum_{i}\frac{f_{\alpha}&plus;t_{\alpha}}{f_{i}&plus;t_{i}}." title="I_{\alpha} = \sum_{i}\frac{f_{\alpha}+t_{\alpha}}{f_{i}+t_{i}}." /></a>
