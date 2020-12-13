@@ -229,44 +229,36 @@
 
 
 <html>
-<head>
-<div class="branch">
-
-<table>
-<tr>
-<td>Contingency Table of Fatality Type by Fatality Location Category</td>
-</tr>
-</table>
-
+<head>   
+<p align="center"><b>Contingency Table of Fatality Type by Fatality Location</b></p>
 <br> 
 
 <div>
 <div align="center">   
-<table><tr>
-<td>
+<tr>
+<td>  
+
+
+
+
 <div align="center">
-<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Freq: Cross-Tabular Freq Table">
-<colgroup>
-<col>
-</colgroup>
-<colgroup>
-</colgroup>
-<tbody>
+<table rules=none>
+
+<th>
+<table>
+<th>Frequency</th>
 <tr>
-<th class="l t stacked_cell header" scope="col"><table width="100%" border="0" cellpadding="5" cellspacing="0">
-<tr>
-<th class="l t header top_stacked_value" scope="col">Frequency</th>
+<th>Percent</th>
 </tr>
-<tr>
-<th class="l t header bottom_stacked_value" scope="col">Percent</th>
-</tr>
-</table></th>
-</tr>
-</tbody>
+</table>
+</th>
 </table>
 </div>
+
 </td>
-<td><div align="center">
+<td>
+   
+<div align="center">
 <table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Freq: Cross-Tabular Freq Table">
 <colgroup>
 <col>
@@ -306,7 +298,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">5.03</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">17</td>
@@ -314,7 +307,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">2.95</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">134</td>
@@ -322,7 +316,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">23.22</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">125</td>
@@ -330,7 +325,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">21.66</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">110</td>
@@ -338,7 +334,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">19.06</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">415</td>
@@ -346,7 +343,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">71.92</td>
 </tr>
-</table></td>
+</table>
+</td>
 </tr>
 <tr>
 <th class="l t rowheader" scope="row">I    </th>
@@ -357,7 +355,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">3.12</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">15</td>
@@ -365,7 +364,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">2.60</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">32</td>
@@ -373,7 +373,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">5.55</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">79</td>
@@ -381,7 +382,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">13.69</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">18</td>
@@ -389,7 +391,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">3.12</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">162</td>
@@ -397,7 +400,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">28.08</td>
 </tr>
-</table></td>
+</table>
+</td>
 </tr>
 <tr>
 <th class="l t rowheader" scope="row">Total</th>
@@ -408,7 +412,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">8.15</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">32</td>
@@ -416,7 +421,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">5.55</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">166</td>
@@ -424,7 +430,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">28.77</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">204</td>
@@ -432,7 +439,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">35.36</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">128</td>
@@ -440,7 +448,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">22.18</td>
 </tr>
-</table></td>
+</table>
+</td>
 <td class="r t stacked_cell data"><table width="100%" border="0" cellpadding="5" cellspacing="0">
 <tr>
 <td class="r t data top_stacked_value">577</td>
@@ -448,7 +457,8 @@
 <tr>
 <td class="r t data bottom_stacked_value">100.00</td>
 </tr>
-</table></td>
+</table>
+</td>
 </tr>
 </tbody>
 </table>
@@ -457,8 +467,9 @@
 </table>
 </div>
 </div>
-<br>
-</div>
 </body>
 </html>
+
+
+
 
