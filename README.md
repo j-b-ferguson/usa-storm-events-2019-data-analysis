@@ -2,8 +2,8 @@
 
 
 <html>
-<p style="text-align:center;">Centered paragraph.</p>
 <body>
+<p style="text-align:center;">Centered paragraph.</p>
 <div align="center">
 <table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Ttest: Statistics">
 <colgroup>
