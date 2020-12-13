@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" baseProfile="full" version="1.1" id="SVGMain" onload='SVGMain_Init("SVGMain")' viewBox="-1 -1 725 260">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" baseProfile="full" version="1.1" id="SVGMain" onload='SVGMain_Init("SVGMain")' viewBox="-1 -1 725 242">
 <desc></desc>
 <defs>
 <clipPath id="SVGMain_clipPage1">
-<rect x="-1" y="-1" width="725" height="260"></rect>
+<rect x="-1" y="-1" width="725" height="242"></rect>
 </clipPath>
 </defs>
 <g id="SVGMain_Page1" clip-path="url(#SVGMain_clipPage1)">
-<rect x="0" y="0" width="724" height="259" style="fill: #FAFBFE; stroke: #FAFBFE; stroke-width: 1; stroke-linejoin: round; "></rect>
+<rect x="0" y="0" width="724" height="241" style="fill: #FAFBFE; stroke: #FAFBFE; stroke-width: 1; stroke-linejoin: round; "></rect>
 <rect x="154" y="34" width="495" height="20" style="fill: #EDF2F9; stroke: #EDF2F9; stroke-width: 1; "></rect>
 <rect x="154" y="55" width="108" height="69" style="fill: #EDF2F9; stroke: #EDF2F9; stroke-width: 1; "></rect>
 <rect x="264" y="55" width="385" height="20" style="fill: #EDF2F9; stroke: #EDF2F9; stroke-width: 1; "></rect>
