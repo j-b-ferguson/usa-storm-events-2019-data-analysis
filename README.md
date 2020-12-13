@@ -38,6 +38,7 @@ Refer to figure 1 below. This figure summarises the types of fatality and locati
   <figcaption>Figure 1: A contingency table showing fatality type by fatality location in 2019.</figcaption>
 </figure>
 
+
 With this explanation aside, first, consider the row totals, these statistics are related to the type of fatality. They show that weather events attributed to 415 direct and 162 indirect fatalities, or 72 % and 28 %, respectively. Most notably, deaths due to the direct forces of nature were significantly higher than indirect causes. The overall fatality statistic was 577.
 
 Now consider the column totals in figure 1, these statistics are associated with the location of death. Most intuitively, being inside accounted for the least fatalities, only 8 %. As expected, being outside had considerably more, with 29 %. Positioning next to bodies of water appeared to be similarly dangerous with 22 %. However, vehicle or equipment related deaths appeared to trump all others with 35 %.
