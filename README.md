@@ -44,5 +44,5 @@ Lastly, consider the intersects of figure 1, these statistics provide informatio
 
 Figure 2 shows the total direct and indirect injuries per month for weather events in 2019. Visual analysis suggests that weather events posed a greater risk to injury from January to July, and falls off considerably from August to December. To supplement this analysis, the chart shows that the highest direct and indirect injury count was May and February; the lowest injury count was January and October, respectively.
 
-<img src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Total%20Direct%20and%20Indirect%20Injuries%20per%20Month%20for%20Weather%20Events%20in%202019.svg">
+<img src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Total%20Direct%20and%20Indirect%20Injuries%20per%20Month%20for%20Weather%20Events%20in%202019.svg" height="50%">
 <p align="center">Figure 2: A clustered bar chart showing the total direct and indirect injuries per month for weather events in 2019.</p>
