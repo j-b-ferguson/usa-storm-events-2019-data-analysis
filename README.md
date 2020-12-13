@@ -1,12 +1,14 @@
-# Analysis of 2019 Storm Events in USA
+<h1 align="center"> Analysis of 2019 Storm Events in USA </h1>
 
-[Justin Ferguson GitHub](https://github.com/j-b-ferguson)
+<p>
+  [Justin Ferguson GitHub](https://github.com/j-b-ferguson)
 
-[Justin Ferguson LinkedIn](https://www.linkedin.com/in/jf2749/)
+  [Justin Ferguson LinkedIn](https://www.linkedin.com/in/jf2749/)
 
-[Contact](mailto:justin.benjamin.ferguson@gmail.com?subject=GitHub%20Enquiry)
+  [Contact](mailto:justin.benjamin.ferguson@gmail.com?subject=GitHub%20Enquiry)
+</p>
 
-## Introduction
+<h2> Introduction </h2>
 Analysis of data on past weather events is a vitally important method to help understand, predict, and plan for future events. Of particular importance is to better understand the impact that storm events may have on property, crops, and human life. One such phenomenon unique to storm events is that of the tornado. They are known for their destructive prowess and come in many flavours.
 
 This report will analyse and quantify the impact of storm events in 2019, in the USA, by focusing solely on tornadoes as a type of storm event.
@@ -80,3 +82,7 @@ Consider figures 3 and 4 below showing kernels of each sample against a theore
 <p align="center">Figure 4: Q-Q plots show the distributions of tornado types plotted against theoretical <br> normal quantiles.</p>
 
 Both plots show that the normality of samples has not been satisfied. Also, note that the variance of EF0 with respect to EF1 is much larger. Regardless of these violations of normality, the Central Limit Theorem allows the t-test to proceed because sample sizes are greater than 30.
+
+<p>
+As in figure 4 below, the <i>p</i>-value for the test of homogeneity of variance is <i>p</i> < .0001, so <i>H</i><sub> 0</sub> was rejected at the 99 % confidence level; and so, equal variances could not be assumed. Using the Satterthwaite (Welch) method for the two sample <i>t</i>-test found a statistically significant mean difference in property damage between tornado severity EF0 and EF1 of -$216,579, where <i>t</i> (df = 536.81) = -4.46, <i>p</i> <.0001 99 %[-$342,058 -$91,101].
+</p>
