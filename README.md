@@ -111,7 +111,17 @@ Note that the difference in count between these tornadoes is only; EF0 - EF1: 6
 </p>
 
 <p align="justify">
-Figure 6 below shows the frequencies and percentages of different tornado types last year. Overall, there were a total of 1728 tornado occurrences, with only 2.77 % being either EF3 or EF4. Now observe figure 6 below, the total damage caused by tornadoes in 2019 far exceeds any other weather event classification. A large number of EF1 tornadoes last year, and tornadoes overall, in conjunction with the differences in damage caused by EF0 and EF1 types, such as maximums of $1.38M against $15M, as well as a mean difference of -$216,579, appear to account for the $3B in damage.
+Figure 6 below shows the frequencies and percentages of different tornado types last year. Overall, there were a total of 1728 tornado occurrences, with only 2.77 % being either EF3 or EF4. Now observe figure 7 below, the total damage caused by tornadoes in 2019 far exceeds any other weather event classification. A large number of EF1 tornadoes last year, and tornadoes overall, in conjunction with the differences in damage caused by EF0 and EF1 types, such as maximums of $1.38M against $15M, as well as a mean difference of -$216,579, appear to account for the $3B in damage.
 </p>
+
+<p align="center">
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Table%20of%20Frequency%20and%20Percentage%20of%20different%20Tornado%20Types%20in%202019.svg">
+</p>
+<p align="center">Figure 6: A frequency distribution table with percentage of different tornado types in 2019.</p>
+
+<p align="center">
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Damage%20to%20Property%20and%20Crops%20by%20Weather%20Events%20in%202019.svg">
+</p>
+<p align="center">Figure 7: A bar chart showing damage cost to property and crops caused by weather events in 2019.</p>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=I_{\alpha}&space;=&space;\sum_{i}\frac{f_{\alpha}&plus;t_{\alpha}}{f_{i}&plus;t_{i}}." target="_blank"><img src="https://latex.codecogs.com/svg.latex?I_{\alpha}&space;=&space;\sum_{i}\frac{f_{\alpha}&plus;t_{\alpha}}{f_{i}&plus;t_{i}}." title="I_{\alpha} = \sum_{i}\frac{f_{\alpha}+t_{\alpha}}{f_{i}+t_{i}}." /></a>
