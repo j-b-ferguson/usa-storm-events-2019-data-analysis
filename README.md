@@ -3,9 +3,6 @@
 
 <html>
 <body>
-<div class="c proctitle">Variable:  DAMAGE_PROPERTY</div>
-<p>
-<div>
 <div align="center">
 <table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Ttest: Statistics">
 <colgroup>
