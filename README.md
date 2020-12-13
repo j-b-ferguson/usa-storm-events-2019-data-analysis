@@ -145,3 +145,12 @@ Where <i>I</i><sub>&alpha;</sub> is the impact coefficient, <i>f</i><sub>&alpha;
   <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Weather%20Event%20Impact%20in%20States%20in%202019.svg">
 </p>
 <p align="center">Figure 9: A bar chart showing impact coefficient given state.</p>
+
+<p align="justify">
+Figure 10 below reveals fatalities based on weather event type. Rip currents yield the most fatalities and wildfires the least, approximately 60 and 5, respectively. Despite being the most impactful, tornadoes were not the deadliest.
+</p>
+
+<p align="center">
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Weather%20event%20fatalities%20in%202019.svg">
+</p>
+<p align="center">Figure 10: A bar chart showing fatalities given weather event type.</p>
