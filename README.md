@@ -125,12 +125,23 @@ Figure 6 below shows the frequencies and percentages of different tornado types 
 <p align="center">Figure 7: A bar chart showing damage cost to property and crops caused by weather events in 2019.</p>
 
 <p align="justify">
-Another way to ascertain the effect that weather events (including storm events) had in 2019 is to measure the overall impact on human life. Consider figure 7, the impact coefficient has been created to measure the effect of such events, and is defined by the following equation:
+Another way to ascertain the effect that weather events (including storm events) had in 2019 is to measure the overall impact on human life. Consider figure 8 below, the impact coefficient has been created to measure the effect of such events, and is defined by the following equation:
 </p>
 
 <p align="center">
 <a href="https://www.codecogs.com/eqnedit.php?latex=I_{\alpha}&space;=&space;\sum_{i}\frac{f_{\alpha}&plus;t_{\alpha}}{f_{i}&plus;t_{i}}." target="_blank"><img src="https://latex.codecogs.com/svg.latex?I_{\alpha}&space;=&space;\sum_{i}\frac{f_{\alpha}&plus;t_{\alpha}}{f_{i}&plus;t_{i}}." title="I_{\alpha} = \sum_{i}\frac{f_{\alpha}+t_{\alpha}}{f_{i}+t_{i}}." /></a>
 </p>
 
+<p align="justify">
+Where <i>I</i><sub>&alpha;</sub> is the impact coefficient, <i>f</i><sub>&alpha;</sub> are the total fatalities (direct and indirect), and <i>t</i><sub>&alpha;</sub> are the total injuries (direct and indirect) of any particular weather event type &alpha;. In the denominator, these variables are summed through <i>i</i> weather event types. Figure 8 reveals the overall impact of tornadoes on human life last year was 0.6. This surpasses all other weather events overwhelmingly, as the remaining fall short of 0.1. Also below, figure 9 reveals an impact coefficient of approximately 0.5 in Alabama, this exceeds all other states. Therefore, the analysis infers that tornados had the highest impact on human life last year in the state of Alabama.
+</p>
 
+<p align="center">
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Weather%20Event%20Impact%20in%202019.svg">
+</p>
+<p align="center">Figure 8: A bar chart showing impact coefficient given weather event type.</p>
 
+<p align="center">
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Weather%20Event%20Impact%20in%20States%20in%202019.svg">
+</p>
+<p align="center">Figure 9: A bar chart showing impact coefficient given state.</p>
