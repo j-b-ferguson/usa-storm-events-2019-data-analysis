@@ -1635,7 +1635,6 @@ function shutdown(){
 }
 
 //-->
-</script>
 
 </head>
 <body onload="startup()" onunload="shutdown()" class="body">
