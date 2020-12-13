@@ -34,7 +34,7 @@ Locations – contains information about weather event locations, coordinates, r
 Refer to figure 1 below. This figure summarises the types of fatality and location of death in the USA in 2019 as a contingency table. There are two fatality types: the first is associated with direct exposure to the forces of the weather event, the so-called 'direct fatalities'. The other type is because of the indirect presence of the weather event. For example, an elevated stress level due to a weather event led to a heart attack. Hence, the heart attack is the direct cause of death, the weather event is the indirect cause. This type of death is classified as an 'indirect fatality'.
 
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Contingency%20Table%20of%20Fatality%20Type%20by%20Fatality%20Location.svg">
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Contingency%20Table%20of%20Fatality%20Type%20by%20Fatality%20Location.svg">
 </p>
 <p align="center">Figure 1: A contingency table showing fatality type by fatality location in 2019.</p>
 
@@ -47,6 +47,31 @@ Lastly, consider the intersects of figure 1, these statistics provide informatio
 Figure 2 shows the total direct and indirect injuries per month for weather events in 2019. Visual analysis suggests that weather events posed a greater risk to injury from January to July, and falls off considerably from August to December. To supplement this analysis, the chart shows that the highest direct and indirect injury count was May and February; the lowest injury count was January and October, respectively.
 
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Total%20Direct%20and%20Indirect%20Injuries%20per%20Month%20for%20Weather%20Events%20in%202019.svg">
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Total%20Direct%20and%20Indirect%20Injuries%20per%20Month%20for%20Weather%20Events%20in%202019.svg">
 </p>
-<p align="center">Figure 2: A clustered bar chart showing the total direct and indirect injuries per month for weather events in 2019.</p>
+<p align="center">Figure 2: A clustered bar chart showing the total direct and indirect injuries per month for <br> weather events in 2019.</p>
+
+To better understand the impact of storm events last year, it is appropriate to consider the effect that extreme phenomena may have had on property damage and human life. In this context, a two independent samples t-test has been carried out to test for a statistically significant mean difference in the cost of property damage, between tornado severity types EF0 and EF1, given;
+
+<p>
+   Null Hypothesis: <i>H</i><sub> 0</sub> = 0,
+   <br>
+   Alternative Hypothesis: 
+   <i>H</i><sub> A</sub> &ne; 0,
+   <br>
+   Sample Size EF0: <i>N</i><sub> EF0</sub> = 644 > 30,
+   <br>
+   Sample Size EF1: <i>N</i><sub> EF1</sub> = 531 > 30,
+   <br>
+   Significance level: 
+   <i>&alpha;</i> = 0.01.
+</p>
+
+Consider figures 3 and 4 below showing kernels of each sample against a theoretical normal distribution and Q-Q plots to check the normality assumption.
+
+<p align="center">
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Distribution%20of%20Property%20Damage%20by%20EF0_EF1%20Tornadoes.svg"
+</p>
+<p align="center">Figure 3: Distribution curves of EF0 and EF1 kernels against the normal distribution with <br> actual data points for both types below.</p>
+
+Both plots show the normality of samples has not been satisfied in this instance. Also, note that the variance of EF0 with respect to EF1 is much larger. Regardless of violations of normality, the Central Limit Theorem allows the t-test to proceed as sample sizes are greater than 30.
