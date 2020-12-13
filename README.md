@@ -1626,7 +1626,6 @@ color:#800080
 TD, TH {vertical-align: top }
 .stacked_cell{padding: 0 }
 -->
-</style>
 <!-- 
 function startup(){
 
