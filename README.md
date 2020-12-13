@@ -70,8 +70,13 @@ To better understand the impact of storm events last year, it is appropriate to 
 Consider figures 3 and 4 below showing kernels of each sample against a theoretical normal distribution and Q-Q plots to check the normality assumption.
 
 <p align="center">
-  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Distribution%20of%20Property%20Damage%20by%20EF0_EF1%20Tornadoes.svg"
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Distribution%20of%20Property%20Damage%20by%20EF0_EF1%20Tornadoes.svg">
 </p>
 <p align="center">Figure 3: Distribution curves of the EF0 and EF1 kernels against the normal distribution with <br> actual data points for both types below.</p>
 
-Both plots show the normality of samples has not been satisfied in this instance. Also, note that the variance of EF0 with respect to EF1 is much larger. Regardless of violations of normality, the Central Limit Theorem allows the t-test to proceed as sample sizes are greater than 30.
+<p align="center">
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/QQplot%20of%20Property%20Damage%20given%20Tornado%20Severity.svg">
+</p>
+<p align="center">Figure 4: Q-Q plots show the distributions of tornado types plotted against theoretical <br> normal quantiles.</p>
+
+Both plots show that the normality of samples has not been satisfied. Also, note that the variance of EF0 with respect to EF1 is much larger. Regardless of these violations of normality, the Central Limit Theorem allows the t-test to proceed because sample sizes are greater than 30.
