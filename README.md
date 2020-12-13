@@ -1648,7 +1648,6 @@ var _ie = (_info.indexOf("MSIE") > 0
 var _ie64 = _info.indexOf("x64") > 0
 
 //-->
-</script>
 
 <div class="branch">
 <a name="IDX"></a>
