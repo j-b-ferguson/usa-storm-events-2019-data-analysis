@@ -1,4 +1,4 @@
-<h1 align="center">Analysis of 2019 Storm Events in USA</h1>
+<h1 align="center">An Analysis of 2019 Storm Events in the USA</h1>
 
 <a href="https://github.com/j-b-ferguson"><p align="center">Justin Ferguson GitHub</p></a>
 <a href="https://www.linkedin.com/in/jf2749/"><p align="center">Justin Ferguson LinkedIn</p></a>
