@@ -107,11 +107,7 @@ As in figure 5 below, the <i>p</i>-value for the test of homogeneity of variance
 <p align="center">Figure 5: A summary of the two independent sample t-test of property damage given <br> tornado type. Also shown is the test for equality of variances.</p>
 
 <p align="justify">
-Note that the difference in count between these tornadoes is only; EF0 - EF1: 644 - 531 = 113.
-</p>
-
-<p align="justify">
-Nevertheless, there is a clear statistically significant difference in the cost of property damage between the two types of tornadoes. One can assume that this statistically significant difference is due to the differences in destructive power between types.
+Note that the difference in count between these tornadoes is only; EF0 - EF1: 644 - 531 = 113. Nevertheless, there is a clear statistically significant difference in the cost of property damage between the two types of tornadoes. One can assume that this difference is due to the variation in destructive power between these two types of tornado.
 </p>
 
 <p align="justify">
