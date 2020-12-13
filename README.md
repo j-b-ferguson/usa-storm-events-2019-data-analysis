@@ -106,4 +106,16 @@ As in figure 5 below, the <i>p</i>-value for the test of homogeneity of variance
 </p>
 <p align="center">Figure 5: A summary of the two independent sample t-test of property damage given <br> tornado type. Also shown is the test for equality of variances.</p>
 
+<p align="justify">
+Note that the difference in count between these tornadoes is only; EF0 - EF1: 644 - 531 = 113.
+</p>
+
+<p align="justify">
+Nevertheless, there is a clear statistically significant difference in the cost of property damage between the two types of tornadoes. One can assume that this statistically significant difference is due to the differences in destructive power between types.
+</p>
+
+<p align="justify">
+Figure 6 below shows the frequencies and percentages of different tornado types last year. Overall, there were a total of 1728 tornado occurrences, with only 2.77 % being either EF3 or EF4. Now observe figure 6 below, the total damage caused by tornadoes in 2019 far exceeds any other weather event classification. A large number of EF1 tornadoes last year, and tornadoes overall, in conjunction with the differences in damage caused by EF0 and EF1 types, such as maximums of $1.38M against $15M, as well as a mean difference of -$216,579, appear to account for the $3B in damage.
+</p>
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=I_{\alpha}&space;=&space;\sum_{i}\frac{f_{\alpha}&plus;t_{\alpha}}{f_{i}&plus;t_{i}}." target="_blank"><img src="https://latex.codecogs.com/svg.latex?I_{\alpha}&space;=&space;\sum_{i}\frac{f_{\alpha}&plus;t_{\alpha}}{f_{i}&plus;t_{i}}." title="I_{\alpha} = \sum_{i}\frac{f_{\alpha}+t_{\alpha}}{f_{i}+t_{i}}." /></a>
