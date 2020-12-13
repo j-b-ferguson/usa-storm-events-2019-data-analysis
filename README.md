@@ -43,7 +43,7 @@ Refer to figure 1 below. This figure summarises the types of fatality and locati
 <p align="center">Figure 1: A contingency table showing fatality type by fatality location in 2019.</p>
 
 <p align="justify">
-With this explanation aside, first, consider the row totals, these statistics are related to the type of fatality. They show that weather events attributed to 415 direct and 162 indirect fatalities, or 72 % and 28 %, respectively. Most notably, deaths due to the direct forces of nature were significantly higher than indirect causes. The overall fatality statistic was 577.
+With this explanation aside, first consider the row totals, these statistics are related to the type of fatality. They show that weather events attributed to 415 direct and 162 indirect fatalities, or 72 % and 28 %, respectively. Most notably, deaths due to the direct forces of nature were significantly higher than indirect causes. The overall fatality statistic was 577.
 </p>
 
 <p align="justify">
