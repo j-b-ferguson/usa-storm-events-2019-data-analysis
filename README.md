@@ -55,7 +55,7 @@ Lastly, consider the intersects of figure 1, these statistics provide informatio
 </p>
 
 <p align="justify">
-Figure 2 shows the total direct and indirect injuries per month for weather events in 2019. Visual analysis suggests that weather events posed a greater risk to injury from January to July, and falls off considerably from August to December. To supplement this analysis, the chart shows that the highest direct and indirect injury count was May and February; the lowest injury count was January and October, respectively.
+Figure 2 shows the total direct and indirect injuries per month for weather events in 2019. Visual analysis suggests that weather events posed a greater risk to injury from January to July, and falls off considerably from August to December. To supplement this analysis, the chart shows that the highest direct and indirect injury count was May and February; the lowest injury count was in January and October, respectively.
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@ Figure 2 shows the total direct and indirect injuries per month for weather even
 To better understand the impact of storm events last year, it is appropriate to consider the effect that extreme phenomena may have had on property damage and human life. In this context, a two independent samples t-test has been carried out to test for a statistically significant mean difference in the cost of property damage, between tornado severity types EF0 and EF1, given;
 </p>
 
-<p align="justify">
+<p align="center">
 Null Hypothesis: <i>H</i><sub> 0</sub> = 0,
 <br>
 Alternative Hypothesis: 
