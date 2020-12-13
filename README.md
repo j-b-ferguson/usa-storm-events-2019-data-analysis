@@ -6,7 +6,6 @@
 <meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <title>SAS Output</title>
-<style type="text/css">
 <!--
 .accessiblecaption
 {
