@@ -1627,7 +1627,6 @@ TD, TH {vertical-align: top }
 .stacked_cell{padding: 0 }
 -->
 </style>
-<script language="javascript" type="text/javascript">
 <!-- 
 function startup(){
 
