@@ -124,4 +124,13 @@ Figure 6 below shows the frequencies and percentages of different tornado types 
 </p>
 <p align="center">Figure 7: A bar chart showing damage cost to property and crops caused by weather events in 2019.</p>
 
+<p align="justify">
+Another way to ascertain the effect that weather events (including storm events) had in 2019 is to measure the overall impact on human life. Consider figure 7, the impact coefficient has been created to measure the effect of such events, and is defined by the following equation:
+</p>
+
+<p align="center">
 <a href="https://www.codecogs.com/eqnedit.php?latex=I_{\alpha}&space;=&space;\sum_{i}\frac{f_{\alpha}&plus;t_{\alpha}}{f_{i}&plus;t_{i}}." target="_blank"><img src="https://latex.codecogs.com/svg.latex?I_{\alpha}&space;=&space;\sum_{i}\frac{f_{\alpha}&plus;t_{\alpha}}{f_{i}&plus;t_{i}}." title="I_{\alpha} = \sum_{i}\frac{f_{\alpha}+t_{\alpha}}{f_{i}+t_{i}}." /></a>
+</p>
+
+
+
