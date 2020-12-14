@@ -140,7 +140,7 @@ The difference in accumulated damages is eight-fold. However, when compared with
 <p align="center">
   <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Damage%20to%20Property%20and%20Crops%20by%20Weather%20Events%20in%202019.svg">
 </p>
-<p align="center">Figure 7: A bar chart showing damage cost to property and crops caused by weather events in 2019.</p>
+<p align="center">Figure 7: A bar chart showing damage cost to property and crops caused by weather <br> events in 2019.</p>
 
 <p align="justify">
 Another way to ascertain the effect that storm events had in 2019 is to measure the overall impact on human life. Consider figure 8 below, the impact coefficient has been created to measure the effect of such events and is defined as follows:
