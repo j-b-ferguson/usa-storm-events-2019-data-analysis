@@ -7,7 +7,7 @@
 
 <h2 align="center">Introduction</h2>
 <p align="justify">
-Analysis of data on past weather events is a vitally important process to understand, predict, and plan for future events. Of particular importance is to better understand the impact that storm events may have on property, crops, and human life. One such phenomenon unique to storm events is that of the tornado. They are known for their destructive prowess and come in many flavours.
+The analysis of data on past weather events is a vitally important process to understand, predict, and plan for future events. Of particular importance is to better understand the impact that storm events may have on property, crops, and human life. One such phenomenon unique to storm events is that of the tornado. They are known for their destructive prowess and come in many flavours.
 
 This report will analyse and quantify the impact of storm events in 2019 in the USA by mainly focusing on tornadoes.
 </p>
@@ -32,10 +32,14 @@ Locations – contains information about weather event locations, coordinates, r
 [View Data Sets](https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/tree/main/Data%20Sets)
 </p>
 
+<p align="justify">
+The data sets were read into SAS using a DATA step or with a library reference. Data types of selected variables were then defined as either datetime, character, or numeric, where required. Any necessary value recoding or data tidying was carried out with conditional statements and the PROC TRANSPOSE procedure. Tables were joined together with PROC SQL statements to enable the analysis of those variables of interest. Several outputs and plots have been produced to support the analysis thoroughout this report using either the PROC FREQ or PROC SGPLOT procedures. Other methods used to further the analysis include a statistical t-test using the PROC TTEST procedure at the 99% confidence level.
+</p>
+
 <h2 align="center">Results</h2>
 
 <p align="justify">
-Refer to figure 1 below. This figure summarises the types of fatality and location of death in the USA in 2019 as a contingency table. There are two fatality types: the first is associated with direct exposure to the forces of the weather event, the so-called 'direct fatalities'. The other type is because of the indirect presence of the weather event. For example, an elevated stress level due to a weather event led to a heart attack. Hence, the heart attack is the direct cause of death, the weather event is the indirect cause. This type of death is classified as an 'indirect fatality'.
+Refer to figure 1 below. This figure summarises the types of fatality and locations of death in the USA in 2019 as a contingency table. There are two fatality types: the first is associated with direct exposure to the forces of the weather event, the so-called 'direct fatalities'. The other type is due to the indirect presence of the weather event. For example, an elevated stress level due to a weather event led to a heart attack. Hence, the heart attack is the direct cause of death, the weather event is the indirect cause. This type of death is classified as an 'indirect fatality'.
 </p>
 
 <p align="center">
@@ -44,19 +48,19 @@ Refer to figure 1 below. This figure summarises the types of fatality and locati
 <p align="center">Figure 1: A contingency table showing fatality type by fatality location in 2019.</p>
 
 <p align="justify">
-With this explanation aside, first consider the row totals, these statistics are related to the type of fatality. They show that weather events attributed to 415 direct and 162 indirect fatalities, or 72 % and 28 %, respectively. Most notably, deaths due to the direct forces of nature were significantly higher than indirect causes. The overall fatality statistic was 577.
+With this explanation aside, first consider the row totals, these statistics are related to the type of fatality. They show that weather events attributed to 415 direct and 162 indirect fatalities, or 72% and 28%, respectively. Most notably, deaths due to the direct forces of nature were significantly higher than indirect. The overall fatality statistic was 577.
 </p>
 
 <p align="justify">
-Now consider the column totals in figure 1, these statistics are associated with the location of death. Most intuitively, being inside accounted for the least fatalities, only 8 %. As expected, being outside had considerably more, with 29 %. Positioning next to bodies of water appeared to be similarly dangerous with 22 %. However, vehicle or equipment related deaths appeared to trump all others with 35 %.
+Now consider the column totals in figure 1, these statistics are associated with the location of death. Most intuitively, being inside accounted for the least fatalities, only 8%. As expected, being outside had considerably more, with 29%. Positioning next to bodies of water appeared to be as dangerous with 22%. However, vehicle or equipment related deaths appeared to trump all others with 35%.
 </p>
 
 <p align="justify">
-Lastly, consider the intersects of figure 1, these statistics provide information about the type of fatality with the location of death. Logically, being outside during a weather event had the most direct fatalities, owning 23 % of total fatalities, the most hazardous of all metrics. However, vehicle equipment and water located direct fatalities followed closely behind, with 22 % and 19 % respectively. Indirect fatalities were their deadliest when associated with a vehicle or equipment, accounting for 14 % of the total metric, and dwarfing all other locations with respect to this fatality type.
+Lastly, consider the intersects of figure 1, these statistics provide information about the type of fatality and the location of death. Logically, being outside during a weather event had the most direct fatalities, owning 23% of the total and the most hazardous of all metrics. However, vehicle/equipment and water-based direct fatalities followed closely behind, with 22% and 19% respectively. Indirect fatalities were their deadliest when linked with a vehicle/equipment, accounting for 14% of the total metric and dwarfing all other locations of death.
 </p>
 
 <p align="justify">
-Figure 2 shows the total direct and indirect injuries per month for weather events in 2019. Visual analysis suggests that weather events posed a greater risk to injury from January to July, and falls off considerably from August to December. To supplement this analysis, the chart shows that the highest direct and indirect injury count was May and February; the lowest injury count was in January and October, respectively.
+Figure 2 shows the total direct and indirect injuries per month for weather events in 2019. Visual analysis suggests that weather events pose a greater risk to injury from January to July, but then drops considerably between August and December. The greatest risk of direct and indirect injury occurs in May and February, respectively. The safest months are January and October.
 </p>
 
 <p align="center">
@@ -95,11 +99,11 @@ Consider figures 3 and 4 below showing kernels of each sample against a theore
 <p align="center">Figure 4: Q-Q plots show the distributions of tornado types plotted against theoretical <br> normal quantiles.</p>
 
 <p align="justify">
-Both plots show that the normality of samples has not been satisfied. Also, note that the variance of EF0 with respect to EF1 is much larger. Regardless of these violations of normality, the Central Limit Theorem allows the t-test to proceed because sample sizes are greater than 30.
+Both plots show that the normality of samples has not been satisfied. Also, note that the variance of EF0 with respect to EF1 is much larger. Regardless of these violations of normality, the Central Limit Theorem ensures the t-test can proceed because both sample sizes are greater than 30.
 </p>
 
 <p align="justify">
-As in figure 5 below, the <i>p</i>-value for the test of homogeneity of variance is <i>p</i> < .0001, so <i>H</i><sub> 0</sub> was rejected at the 99 % confidence level; and so, equal variances could not be assumed. Using the Satterthwaite (Welch) method for the two sample <i>t</i>-test found a statistically significant mean difference in property damage between tornado severity EF0 and EF1 of -$216,579, where <i>t</i> (df = 536.81) = -4.46, <i>p</i> <.0001 99 %[-$342,058 -$91,101].
+As in figure 5 below, the <i>p</i>-value for the test of homogeneity of variance is <i>p</i> < .0001, so <i>H</i><sub> 0</sub> was rejected at the 99% confidence level and equal variances was not assumed. Using the Satterthwaite (Welch) method for a two samples <i>t</i>-test found a statistically significant mean difference in property damage between tornado severity EF0 and EF1 of -$216,579, where <i>t</i> (df = 536.81) = -4.46, <i>p</i> <.0001 99%[-$342,058 -$91,101]. In simplier terms, the average cost of property damage during a EF1 tornado event is significantly greater than an EF0 tornado event. The average difference in the cost of property damage between these two types is $216,579. This variation quantifies the differences in destructive power.
 </p>
 
 <p align="center">
@@ -108,11 +112,18 @@ As in figure 5 below, the <i>p</i>-value for the test of homogeneity of variance
 <p align="center">Figure 5: A summary of the two independent sample t-test of property damage given <br> tornado type. Also shown is the test for equality of variances.</p>
 
 <p align="justify">
-Note that the difference in count between these tornadoes is only; EF0 - EF1: 644 - 531 = 113. Nevertheless, there is a clear statistically significant difference in the cost of property damage between the two types of tornadoes. One can assume that this difference is due to the variation in destructive power between these two types of tornado.
+Figure 6 below shows the frequencies and percentages of different tornado types last year. Overall, there were a total of 1728 tornado occurrences, with 78% being EF0 or EF1. The difference in numbers between these types is only 113.
 </p>
 
-<p align="justify">
-Figure 6 below shows the frequencies and percentages of different tornado types last year. Overall, there were a total of 1728 tornado occurrences, with only 2.77 % being either EF3 or EF4. Now observe figure 7 below, the total damage caused by tornadoes in 2019 far exceeds any other weather event classification. A large number of EF1 tornadoes last year, and tornadoes overall, in conjunction with the differences in damage caused by EF0 and EF1 types, such as maximums of $1.38M against $15M, as well as a mean difference of -$216,579, appear to account for the $3B in damage.
+<p align="justify"> 
+Now observe figure 7 below, the total damage caused by all tornadoes in 2019 far exceeds any other weather event classification with $3B in total damage. A crude method to gauge the contribution towards this total is to multiply the average cost of a single occurence (taken from figure 5) by the total number of occurences.
+</p>
+
+<p align="center"><i>Mean</i><sub>EF0</sub>x<i>N</i><sub>EF0</sub>: $25,391 x 644 = $16.35M</p>
+<p align="center"><i>Mean</i><sub>EF1</sub>x<i>N</i><sub>EF1</sub>: $241,970 x 531 = $128.49M</p>
+
+<p align="justify"> 
+The difference in accumulated damages is almost eight-fold. However, when compared with the total damage cost shown in figure 7, the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1%. So, one can infer that the cost of damage between the types must rise exponentially. Therefore, EF2 and greater tornadoes must account for the majority of damages. One can assume that a major factor to judge a tornado season's overall severity is predominantly determined by the number of severe tornadoes (of type EF2 and greater).
 </p>
 
 <p align="center">
@@ -126,7 +137,7 @@ Figure 6 below shows the frequencies and percentages of different tornado types 
 <p align="center">Figure 7: A bar chart showing damage cost to property and crops caused by weather events in 2019.</p>
 
 <p align="justify">
-Another way to ascertain the effect that weather events (including storm events) had in 2019 is to measure the overall impact on human life. Consider figure 8 below, the impact coefficient has been created to measure the effect of such events, and is defined by the following equation:
+Another way to ascertain the effect that storm events had in 2019 is to measure the overall impact on human life. Consider figure 8 below, the impact coefficient has been created to measure the effect of such events and is defined as follows:
 </p>
 
 <p align="center">
