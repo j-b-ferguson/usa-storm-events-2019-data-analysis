@@ -7,4 +7,4 @@ ods graphics / outputfmt=svg imagename='Weather Event Impact in States in 2019';
 		title 'Weather Event Impact in States in 2019';
 		xaxis label='State';
 		yaxis label='Impact Coefficient';
-run;
+	run;
