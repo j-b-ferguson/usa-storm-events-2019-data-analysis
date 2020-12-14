@@ -7,4 +7,4 @@ ods graphics / outputfmt=svg imagename='Weather Event Fatalities in States in 20
 		title 'Weather Event Fatalities in States in 2019';
 		xaxis label='State';
 		yaxis label='Fatality Count';
-run;
+	run;
