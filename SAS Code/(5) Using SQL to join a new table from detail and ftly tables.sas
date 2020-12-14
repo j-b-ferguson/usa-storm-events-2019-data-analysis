@@ -19,10 +19,10 @@ event_type. Save as new table 'ftly_det3'.*/
 proc sql;
 	create table ftly_det3 as
 		select event_id, episode_id, state, event_type, injuries,
-			(case when fatality_type = 'D' then 1
-				  when fatality_type = 'I' then 1
-				  else 0
-				  end) as FATALITIES
+		       (case when fatality_type = 'D' then 1
+			     when fatality_type = 'I' then 1
+			     else 0
+			     end) as FATALITIES
 		from work.ftly_det2
 		group by event_type;
 quit;
