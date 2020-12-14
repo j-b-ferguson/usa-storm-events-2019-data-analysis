@@ -154,3 +154,30 @@ Figure 10 below reveals fatalities based on weather event type. Rip currents yie
   <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Weather%20event%20fatalities%20in%202019.svg">
 </p>
 <p align="center">Figure 10: A bar chart showing fatalities given weather event type.</p>
+
+<p align="justify">
+A similar situation as in figure 11, Alabama did not have the highest occurence of fatalities, despite having the most impact. The highest concentration appears in the state of California with around 60 fatalities.
+</p>
+
+<p align="center">
+  <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Weather%20Event%20Fatalities%20in%20States%20in%202019.svg">
+</p>
+<p align="center">Figure 11: A bar chart showing fatalities given state.</p>
+
+<h2 align="center">Conclusion</h2>
+
+<p align="justify">
+Weather events overall amassed 577 fatalities last year in USA, with the majority not inside, and due to direct exposure. A visual analysis revealed the months of greatest risk to injury being from January to July. Of particular interest is the effect of storm events, as these categorise some of the most extreme phenomena, such as tornadoes.
+</p>
+
+<p align="justify">
+Overall, there was a high number of tornadoes last year, with only 2.77 % being EF3 or EF4, such that the majority were either EF0 or EF1, - 644 and 531, respectively. A two independent samples <i>t</i>-test showed a statistically significant mean difference of -$216,579 in property damage cost caused by EF0 and EF1 with 99 % confidence. This quantifies the difference in destructive power between the two types.
+</p>
+
+<p align="justify">
+The total damage cost to property and crop by tornadoes was $3B last year and far exceeded all other weather event classifications. This is accounted for by a large number of tornadoes, EF1 type most notably.
+</p>
+
+<p align="justify">
+Tornadoes due to storm events appeared to have had a highly significant impact on human life last year, dwarfing all other classifications, particularly in the state of Alabama. Nevertheless, fatalities of last year caused by tornadoes were not as high as that of rip currents. Moreover, not as well concentrated as the state of California. However, this does not diminish the severe impacts of these events last year.
+</p>
