@@ -15,7 +15,7 @@ This report will analyse and quantify the impact of storm events in 2019 in the 
 <h2 align="center">Methods</h2>
 
 <p align="justify">
-The analysis performed in this report was completed in SAS with data sets made available by the National Centers for Environmental Information https://www.ncdc.noaa.gov/. Six data sets were extracted and contained the following information, variables, and observations:
+The analysis performed in this report was completed in SAS with data sets made available by the National Centers for Environmental Information https://www.ncdc.noaa.gov/. Six data sets were extracted and contained the following variables and observations:
 
 Descriptions – contains a narrative about weather event episodes: 2 variables, 10575 observations.
 
@@ -33,7 +33,7 @@ Locations – contains information about weather event locations, coordinates, r
 </p>
 
 <p align="justify">
-The data sets were read into SAS using a DATA step or with a library reference. Data types of selected variables were then defined as either datetime, character, or numeric, where required. Any necessary value recoding or data tidying was carried out with conditional statements and the PROC TRANSPOSE procedure. Tables were joined together with PROC SQL statements to enable the analysis of those variables of interest. Several outputs and plots have been produced to support the analysis thoroughout this report using either the PROC FREQ or PROC SGPLOT procedures. Other methods used to further the analysis include a statistical t-test using the PROC TTEST procedure at the 99% confidence level.
+The data sets were read into SAS using a DATA step or with a library reference. Data types of selected variables were then defined as either datetime, character, or numeric, where required. Any necessary value recoding or data tidying was carried out with conditional statements and the PROC TRANSPOSE procedure. Tables were joined together with PROC SQL statements to enable the analysis of those variables of interest. Several outputs and plots have been produced to support the analysis throughout this report using either the PROC FREQ or PROC SGPLOT procedures. Other methods used to further the analysis include a statistical t-test at the 99% confidence level with the PROC TTEST procedure .
 </p>
 
 <h2 align="center">Results</h2>
@@ -56,11 +56,11 @@ Now consider the column totals in figure 1, these statistics are associated with
 </p>
 
 <p align="justify">
-Lastly, consider the intersects of figure 1, these statistics provide information about the type of fatality and the location of death. Logically, being outside during a weather event had the most direct fatalities, owning 23% of the total and the most hazardous of all metrics. However, vehicle/equipment and water-based direct fatalities followed closely behind, with 22% and 19% respectively. Indirect fatalities were their deadliest when linked with a vehicle/equipment, accounting for 14% of the total metric and dwarfing all other locations of death.
+Lastly, consider the intersects of figure 1, these statistics provide information about the type of fatality and the location of death. Logically, being outside during a weather event had the most direct fatalities, owning 23% of the total and the most hazardous of all metrics. However, vehicle/equipment and water-based direct fatalities followed closely behind, with 22% and 19%, respectively. Indirect fatalities were their deadliest when linked with vehicle/equipment, accounting for 14% of the total metric and dwarfing all other locations of death.
 </p>
 
 <p align="justify">
-Figure 2 shows the total direct and indirect injuries per month for weather events in 2019. Visual analysis suggests that weather events pose a greater risk to injury from January to July, but then drops considerably between August and December. The greatest risk of direct and indirect injury occurs in May and February, respectively. The safest months are January and October.
+Figure 2 shows the total direct and indirect injuries per month for weather events in 2019. Visual analysis suggests that weather events pose a greater risk to injury from January to July, but then drops considerably between August and December. The greatest risk of direct or indirect injury occurs in May or February, respectively. The safest months are January and October.
 </p>
 
 <p align="center">
@@ -103,16 +103,20 @@ Both plots show that the normality of samples has not been satisfied. Also, no
 </p>
 
 <p align="justify">
-As in figure 5 below, the <i>p</i>-value for the test of homogeneity of variance is <i>p</i> < .0001, so <i>H</i><sub> 0</sub> was rejected at the 99% confidence level and equal variances was not assumed. Using the Satterthwaite (Welch) method for a two samples <i>t</i>-test found a statistically significant mean difference in property damage between tornado severity EF0 and EF1 of -$216,579, where <i>t</i> (df = 536.81) = -4.46, <i>p</i> <.0001 99%[-$342,058 -$91,101]. In simplier terms, the average cost of property damage during a EF1 tornado event is significantly greater than an EF0 tornado event. The average difference in the cost of property damage between these two types is $216,579. This variation quantifies the differences in destructive power.
+As in figure 5 below, the <i>p</i>-value for the test of homogeneity of variance is <i>p</i> < .0001, so <i>H</i><sub> 0</sub> was rejected at the 99% confidence level and equal variances was not assumed. Using the Satterthwaite (Welch) method for a two samples <i>t</i>-test found a statistically significant mean difference in property damage between tornado severity EF0 and EF1 of -$216,579, where <i>t</i> (df = 536.81) = -4.46, <i>p</i> <.0001 99%[-$342,058 -$91,101]. 
+</p>
+
+<p align="justify">
+In simplier terms, the average cost of property damage during a EF1 tornado event is significantly greater than an EF0 tornado event. The average difference in the cost of property damage between these two types is $216,579. This variation quantifies the differences in destructive power.
 </p>
 
 <p align="center">
   <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/T-test%20of%20Property%20Damage%20given%20Tornado%20Severity.svg">  
 </p>
-<p align="center">Figure 5: A summary of the two independent sample t-test of property damage given <br> tornado type. Also shown is the test for equality of variances.</p>
+<p align="center">Figure 5: A summary of the two independent samples t-test of property damage given <br> tornado type. Also shown is the test for equality of variances.</p>
 
 <p align="justify">
-Figure 6 below shows the frequencies and percentages of different tornado types last year. Overall, there were a total of 1728 tornado occurrences, with 78% being EF0 or EF1. The difference in numbers between these types is only 113.
+Figure 6 below shows the frequencies and percentages of different tornado types last year. Overall, there were a total of 1728 tornado occurrences, with 78% being EF0 or EF1. The difference in numbers between these types is only 117.
 </p>
 
 <p align="center">
@@ -124,11 +128,11 @@ Figure 6 below shows the frequencies and percentages of different tornado types 
 Now observe figure 7 below, the total damage caused by all tornadoes in 2019 far exceeds any other weather event classification with $3B in total damage. A crude method to gauge the contribution towards this total is to multiply the average cost of a single occurence (taken from figure 5) by the total number of occurences.
 </p>
 
-<p align="center">Mean<sub> EF0</sub> x <i>N</i><sub> EF0</sub>: $25,391 x 644 = $16.35M</p>
-<p align="center">Mean<sub> EF1</sub> x <i>N</i><sub> EF1</sub>: $241,970 x 531 = $128.49M</p>
+<p align="center">Mean<sub> EF0</sub> x <i>N</i><sub> EF0</sub>: $25,391 x 644 = $18.54M</p>
+<p align="center">Mean<sub> EF1</sub> x <i>N</i><sub> EF1</sub>: $241,970 x 531 = $148.33M</p>
 
 <p align="justify"> 
-The difference in accumulated damages is almost eight-fold. However, when compared with the total damage cost shown in figure 7, the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1%. So, one can infer that the cost of damage between the types must rise exponentially. Therefore, EF2 and greater tornadoes must account for the majority of damages. One can assume that a major factor to judge a tornado season's overall severity is predominantly determined by the number of severe tornadoes (of at least type EF2 and greater).
+The difference in accumulated damages is eight-fold. However, when compared with the total damage cost shown in figure 7, the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1%. So, one can infer that the cost of damage between the types must rise exponentially. Therefore, EF2 and greater tornadoes must account for the majority of damages. One can assume that a major factor to judge a tornado season's overall severity is predominantly determined by the number of severe tornadoes (of at least type EF2 and greater).
 </p>
 
 <p align="center">
@@ -179,13 +183,13 @@ A similar situation in figure 11, where Alabama did not have the largest count o
 <h2 align="center">Conclusion</h2>
 
 <p align="justify">
-Weather events overall amassed 577 fatalities last year in the USA, with the majority not inside and due to direct exposure. A visual analysis revealed the months of greatest risk being from January to July. Of particular interest is the effect of storm events, as these categorise some of the most extreme phenomena, such as tornadoes.
+Weather events amassed 577 fatalities last year in the USA, with the majority not inside and due to direct exposure. A visual analysis revealed the months of greatest risk being from January to July. Of particular interest is the effect of storm events, as these categorise some of the most extreme phenomena, such as tornadoes.
 </p>
 
 <p align="justify">
-Overall, there were a high number of tornadoes last year, with 78% being either EF0 or EF1. The difference in average damage cost for each occurence between these two tornado types was statistically significant being $216,579 with 99% confidence. This quantifies the difference in destructive power. Nevertheless the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1% of the overall $3B of damage in 2019. This infers that the differences in damages caused by tornadoes between different categories is exponential as the overwhelming majority of damage caused was done by EF2 and greater. Moreover, one should infer that the degree of tornado season severity is predominantly determined by the count of severe tornadoes (of at least type EF2 and greater).
+Overall, there were a high number of tornadoes last year, with 78% being either EF0 or EF1. The difference in average damage cost for each occurence between these two tornado types was statistically significant being $216,579 with 99% confidence. This quantifies the difference in destructive power. Nevertheless, the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1% of the overall $3B worth of damage in 2019. Inferring that the difference in damages caused by tornadoes between different categories is exponential, as the overwhelming majority of damage was done by types EF2 and greater. Moreover, one should infer that the degree of tornado season severity is predominantly determined by the count of severe tornadoes (of at least type EF2 and greater).
 </p>
 
 <p align="justify">
-Despite not having the most fatalities with respect to other weather event types, tornadoes clearly had the most significant effect on human life over all other events last year in other metrics. This is prominently shown in terms of impact coefficients (and damages caused). Based upon the analysis, Alabama appears to have been the most severely affected.
+Despite not having the most fatalities with respect to other weather event types, tornadoes clearly had the most significant effect on human life overall. This is prominently shown in terms of impact coefficients and damages caused. Based upon the analysis, Alabama appears to have been the most severely affected.
 </p>
