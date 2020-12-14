@@ -16,6 +16,7 @@ This report will analyse and quantify the impact of storm events in 2019 in the 
 
 <p align="justify">
 The analysis performed in this report was completed in SAS with data sets made available by the National Centers for Environmental Information https://www.ncdc.noaa.gov/. Six data sets were extracted and contained the following variables and observations:
+</p>
 
 Descriptions – contains a narrative about weather event episodes: 2 variables, 10575 observations.
 
@@ -30,11 +31,12 @@ Tornadoes – contains information about tornado type, dimensions, associated we
 Locations – contains information about weather event locations, coordinates, range, etc.: 10 variables, 53215 observations.
 
 [View Data Sets](https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/tree/main/Data%20Sets)
-</p>
 
 <p align="justify">
 The data sets were read into SAS using a DATA step or with a library reference. Data types of selected variables were then defined as either datetime, character, or numeric, where required. Any necessary value recoding or data tidying was carried out with conditional statements and the PROC TRANSPOSE procedure. Tables were joined together with PROC SQL statements to enable the analysis of those variables of interest. Several outputs and plots have been produced to support the analysis throughout this report using either the PROC FREQ or PROC SGPLOT procedures. Other methods used to further the analysis include a statistical t-test at the 99% confidence level with the PROC TTEST procedure .
 </p>
+
+[View SAS Code](https://github.com/j-b-ferguson/usa-storm-events-2019-data-analysis/tree/main/SAS%20Code)
 
 <h2 align="center">Results</h2>
 
