@@ -115,21 +115,21 @@ As in figure 5 below, the <i>p</i>-value for the test of homogeneity of variance
 Figure 6 below shows the frequencies and percentages of different tornado types last year. Overall, there were a total of 1728 tornado occurrences, with 78% being EF0 or EF1. The difference in numbers between these types is only 113.
 </p>
 
-<p align="justify"> 
-Now observe figure 7 below, the total damage caused by all tornadoes in 2019 far exceeds any other weather event classification with $3B in total damage. A crude method to gauge the contribution towards this total is to multiply the average cost of a single occurence (taken from figure 5) by the total number of occurences.
-</p>
-
-<p align="center"><i>Mean</i><sub>EF0</sub>x<i>N</i><sub>EF0</sub>: $25,391 x 644 = $16.35M</p>
-<p align="center"><i>Mean</i><sub>EF1</sub>x<i>N</i><sub>EF1</sub>: $241,970 x 531 = $128.49M</p>
-
-<p align="justify"> 
-The difference in accumulated damages is almost eight-fold. However, when compared with the total damage cost shown in figure 7, the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1%. So, one can infer that the cost of damage between the types must rise exponentially. Therefore, EF2 and greater tornadoes must account for the majority of damages. One can assume that a major factor to judge a tornado season's overall severity is predominantly determined by the number of severe tornadoes (of type EF2 and greater).
-</p>
-
 <p align="center">
   <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Table%20of%20Frequency%20and%20Percentage%20of%20different%20Tornado%20Types%20in%202019.svg">
 </p>
 <p align="center">Figure 6: A frequency distribution table with percentage of different tornado types in 2019.</p>
+
+<p align="justify"> 
+Now observe figure 7 below, the total damage caused by all tornadoes in 2019 far exceeds any other weather event classification with $3B in total damage. A crude method to gauge the contribution towards this total is to multiply the average cost of a single occurence (taken from figure 5) by the total number of occurences.
+</p>
+
+<p align="center">Mean<sub> EF0</sub> x <i>N</i><sub> EF0</sub>: $25,391 x 644 = $16.35M</p>
+<p align="center">Mean<sub> EF1</sub> x <i>N</i><sub> EF1</sub>: $241,970 x 531 = $128.49M</p>
+
+<p align="justify"> 
+The difference in accumulated damages is almost eight-fold. However, when compared with the total damage cost shown in figure 7, the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1%. So, one can infer that the cost of damage between the types must rise exponentially. Therefore, EF2 and greater tornadoes must account for the majority of damages. One can assume that a major factor to judge a tornado season's overall severity is predominantly determined by the number of severe tornadoes (of type EF2 and greater).
+</p>
 
 <p align="center">
   <img width="75%" height="75%" src="https://github.com/j-b-ferguson/usa-storm-events-2019-analysis/blob/main/plots/Damage%20to%20Property%20and%20Crops%20by%20Weather%20Events%20in%202019.svg">
