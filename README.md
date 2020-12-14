@@ -128,7 +128,7 @@ Now observe figure 7 below, the total damage caused by all tornadoes in 2019 far
 <p align="center">Mean<sub> EF1</sub> x <i>N</i><sub> EF1</sub>: $241,970 x 531 = $128.49M</p>
 
 <p align="justify"> 
-The difference in accumulated damages is almost eight-fold. However, when compared with the total damage cost shown in figure 7, the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1%. So, one can infer that the cost of damage between the types must rise exponentially. Therefore, EF2 and greater tornadoes must account for the majority of damages. One can assume that a major factor to judge a tornado season's overall severity is predominantly determined by the number of severe tornadoes (of type EF2 and greater).
+The difference in accumulated damages is almost eight-fold. However, when compared with the total damage cost shown in figure 7, the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1%. So, one can infer that the cost of damage between the types must rise exponentially. Therefore, EF2 and greater tornadoes must account for the majority of damages. One can assume that a major factor to judge a tornado season's overall severity is predominantly determined by the number of severe tornadoes (of at least type EF2 and greater).
 </p>
 
 <p align="center">
@@ -145,7 +145,7 @@ Another way to ascertain the effect that storm events had in 2019 is to measure 
 </p>
 
 <p align="justify">
-Where <i>I</i><sub>&alpha;</sub> is the impact coefficient, <i>f</i><sub>&alpha;</sub> are the total fatalities (direct and indirect), and <i>t</i><sub>&alpha;</sub> are the total injuries (direct and indirect) of any particular weather event type &alpha;. In the denominator, these variables are summed through <i>i</i> weather event types. Figure 8 reveals the overall impact of tornadoes on human life last year was 0.6. This surpasses all other weather events overwhelmingly, as the remaining fall short of 0.1. Also below, figure 9 reveals an impact coefficient of approximately 0.5 in Alabama, this exceeds all other states. Therefore, the analysis infers that tornados had the highest impact on human life last year in the state of Alabama.
+Where <i>I</i><sub>&alpha;</sub> is the impact coefficient, <i>f</i><sub>&alpha;</sub> are the total fatalities (direct and indirect), and <i>t</i><sub>&alpha;</sub> are the total injuries (direct and indirect) of any particular weather event type &alpha;. In the denominator, these variables are summed through <i>i</i> weather event types. Figure 8 reveals the overall impact on human life due to tornadoes last year was 0.6. This surpasses all other weather events overwhelmingly, as the remaining fall short of 0.1. Also below, figure 9 reveals an impact coefficient of approximately 0.5 in Alabama, this exceeds all other states. Therefore, one can infer that tornadoes had the highest impact on human life in the state of Alabama.
 </p>
 
 <p align="center">
@@ -159,7 +159,7 @@ Where <i>I</i><sub>&alpha;</sub> is the impact coefficient, <i>f</i><sub>&alpha;
 <p align="center">Figure 9: A bar chart showing impact coefficient given state.</p>
 
 <p align="justify">
-Figure 10 below reveals fatalities based on weather event type. Rip currents yield the most fatalities and wildfires the least, approximately 60 and 5, respectively. Despite being the most impactful, tornadoes were not the deadliest.
+Figure 10 below shows fatalities based upon the weather event classification. Rip currents produced the most fatalities and wildfires the least, approximately 60 and 5, respectively. Despite having the highest impact coefficient, tornadoes were not the deadliest.
 </p>
 
 <p align="center">
@@ -168,7 +168,7 @@ Figure 10 below reveals fatalities based on weather event type. Rip currents yie
 <p align="center">Figure 10: A bar chart showing fatalities given weather event type.</p>
 
 <p align="justify">
-A similar situation as in figure 11, Alabama did not have the highest occurence of fatalities, despite having the most impact. The highest concentration appears in the state of California with around 60 fatalities.
+A similar situation in figure 11, where Alabama did not have the largest count of mortalities, despite yielding the highest impact coefficient. Instead, the highest concentration of fatalities is in California with around 60.
 </p>
 
 <p align="center">
@@ -179,17 +179,13 @@ A similar situation as in figure 11, Alabama did not have the highest occurence 
 <h2 align="center">Conclusion</h2>
 
 <p align="justify">
-Weather events overall amassed 577 fatalities last year in USA, with the majority not inside, and due to direct exposure. A visual analysis revealed the months of greatest risk to injury being from January to July. Of particular interest is the effect of storm events, as these categorise some of the most extreme phenomena, such as tornadoes.
+Weather events overall amassed 577 fatalities last year in the USA, with the majority not inside and due to direct exposure. A visual analysis revealed the months of greatest risk being from January to July. Of particular interest is the effect of storm events, as these categorise some of the most extreme phenomena, such as tornadoes.
 </p>
 
 <p align="justify">
-Overall, there was a high number of tornadoes last year, with only 2.77 % being EF3 or EF4, such that the majority were either EF0 or EF1, - 644 and 531, respectively. A two independent samples <i>t</i>-test showed a statistically significant mean difference of -$216,579 in property damage cost caused by EF0 and EF1 with 99 % confidence. This quantifies the difference in destructive power between the two types.
+Overall, there were a high number of tornadoes last year, with 78% being either EF0 or EF1. The difference in average damage cost for each occurence between these two tornado types was statistically significant being $216,579 with 99% confidence. This quantifies the difference in destructive power. Nevertheless the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1% of the overall $3B of damage in 2019. This infers that the differences in damages caused by tornadoes between different categories is exponential as the overwhelming majority of damage caused was done by EF2 and greater. Moreover, one should infer that the degree of tornado season severity is predominantly determined by the count of severe tornadoes (of at least type EF2 and greater).
 </p>
 
 <p align="justify">
-The total damage cost to property and crop by tornadoes was $3B last year and far exceeded all other weather event classifications. This is accounted for by a large number of tornadoes, EF1 type most notably.
-</p>
-
-<p align="justify">
-Tornadoes due to storm events appeared to have had a highly significant impact on human life last year, dwarfing all other classifications, particularly in the state of Alabama. Nevertheless, fatalities of last year caused by tornadoes were not as high as that of rip currents. Moreover, not as well concentrated as the state of California. However, this does not diminish the severe impacts of these events last year.
+Despite not having the most fatalities with respect to other weather event types, tornadoes clearly had the most significant effect on human life over all other events last year in other metrics. This is prominently shown in terms of impact coefficients (and damages caused). Based upon the analysis, Alabama appears to have been the most severely affected.
 </p>
