@@ -130,8 +130,8 @@ Figure 6 below shows the frequencies and percentages of different tornado types 
 Now observe figure 7 below, the total damage caused by all tornadoes in 2019 far exceeds any other weather event classification with $3B in total damage. A crude method to gauge the contribution towards this total is to multiply the average cost of a single occurence (taken from figure 5) by the total number of occurences.
 </p>
 
-<p align="center">Mean<sub> EF0</sub> x <i>N</i><sub> EF0</sub>: $25,391 x 644 = $18.54M</p>
-<p align="center">Mean<sub> EF1</sub> x <i>N</i><sub> EF1</sub>: $241,970 x 531 = $148.33M</p>
+<p align="center">Mean<sub> EF0</sub> x <i>N</i><sub> EF0</sub>: $25,391 x 730 = $18.54M</p>
+<p align="center">Mean<sub> EF1</sub> x <i>N</i><sub> EF1</sub>: $241,970 x 613 = $148.33M</p>
 
 <p align="justify"> 
 The difference in accumulated damages is eight-fold. However, when compared with the total damage cost shown in figure 7, the combined sum of damages due to EF0 and EF1 tornadoes account for less than 1%. So, one can infer that the cost of damage between the types must rise exponentially. Therefore, EF2 and greater tornadoes must account for the majority of damages. One can assume that a major factor to judge a tornado season's overall severity is predominantly determined by the number of severe tornadoes (of at least type EF2 and greater).
