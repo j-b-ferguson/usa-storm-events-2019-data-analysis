@@ -6,7 +6,7 @@
 <a href="mailto:justin.benjamin.ferguson@gmail.com?subject=GitHub%20Enquiry"><p align="center">Contact</p></a>
 <br>
 <p align="center"><b>Other Versions</b></p>
-<a href="https://www.justinferguson.me/pages/COVID-19_Aus_cleaned.html"><p align="center">HTML Report</p></a>
+<a href="https://www.justinferguson.me/pages/usa-storm-events-2019-analysis.html"><p align="center">HTML Report</p></a>
 
 <h2 align="center">Introduction</h2>
 <p align="justify">
