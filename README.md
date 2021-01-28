@@ -4,6 +4,9 @@
 <a href="https://github.com/j-b-ferguson"><p align="center">Justin Ferguson GitHub</p></a>
 <a href="https://www.linkedin.com/in/jf2749/"><p align="center">Justin Ferguson LinkedIn</p></a>
 <a href="mailto:justin.benjamin.ferguson@gmail.com?subject=GitHub%20Enquiry"><p align="center">Contact</p></a>
+<br>
+<p align="center"><b>Other Versions</b></p>
+<a href="https://www.justinferguson.me/pages/COVID-19_Aus_cleaned.html"><p align="center">HTML Report</p></a>
 
 <h2 align="center">Introduction</h2>
 <p align="justify">
