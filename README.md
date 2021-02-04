@@ -1,21 +1,21 @@
-<h1 align="center">An Analysis of 2019 Storm Events in the USA</h1>
+# An Analysis of 2019 Storm Events in the USA
 
-<p align="center"><b>Author</b></p>
-<a href="https://github.com/j-b-ferguson"><p align="center">Justin Ferguson GitHub</p></a>
-<a href="https://www.linkedin.com/in/j-b-ferguson/"><p align="center">Justin Ferguson LinkedIn</p></a>
-<a href="mailto:justin.benjamin.ferguson@gmail.com?subject=GitHub%20Enquiry"><p align="center">Contact</p></a>
+<p><b>Author</b></p>
+<a href="https://github.com/j-b-ferguson"><p>Justin Ferguson GitHub</p></a>
+<a href="https://www.linkedin.com/in/j-b-ferguson/"><p>Justin Ferguson LinkedIn</p></a>
+<a href="mailto:justin.benjamin.ferguson@gmail.com?subject=GitHub%20Enquiry"><p>Contact</p></a>
 <br>
-<p align="center"><b>Other Versions</b></p>
-<a href="https://www.justinferguson.me/pages/usa-storm-events-2019-analysis.html"><p align="center">HTML Report</p></a>
+<p><b>Other Versions</b></p>
+<a href="https://www.justinferguson.me/pages/usa-storm-events-2019-analysis.html"><p>HTML Report</p></a>
 
-<h2 align="center">Introduction</h2>
+# Introduction
 <p align="justify">
 The analysis of data on past weather events is a vitally important process to understand, predict, and plan for future events. Of particular importance is to better understand the impact that storm events may have on property, crops, and human life. One such phenomenon unique to storm events is that of the tornado. They are known for their destructive prowess and come in many flavours.
 
 This report will analyse and quantify the impact of storm events in 2019 in the USA by mainly focusing on tornadoes.
 </p>
 
-<h2 align="center">Methods</h2>
+# Methods
 
 <p align="justify">
 The analysis performed in this report was completed in SAS with data sets made available by the National Centers for Environmental Information https://www.ncdc.noaa.gov/. Six data sets were extracted and contained the following variables and observations:
@@ -185,7 +185,7 @@ A similar situation in figure 11, where Alabama did not have the largest count o
 </p>
 <p align="center">Figure 11: A bar chart showing fatalities given state.</p>
 
-<h2 align="center">Conclusion</h2>
+# Conclusion
 
 <p align="justify">
 Weather events amassed 577 fatalities last year in the USA, with the majority not inside and due to direct exposure. A visual analysis revealed the months of greatest risk being from January to July. Of particular interest is the effect of storm events, as these categorise some of the most extreme phenomena, such as tornadoes.
