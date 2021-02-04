@@ -41,7 +41,7 @@ The data sets were read into SAS using a DATA step or with a library reference. 
 
 [View SAS Code](https://github.com/j-b-ferguson/usa-storm-events-2019-data-analysis/tree/main/SAS%20Code)
 
-<h2 align="center">Results</h2>
+# Results
 
 <p align="justify">
 Refer to figure 1 below. This figure summarises the types of fatality and locations of death in the USA in 2019 as a contingency table. There are two fatality types: the first is associated with direct exposure to the forces of the weather event, the so-called 'direct fatalities'. The other type is due to the indirect presence of the weather event. For example, an elevated stress level due to a weather event led to a heart attack. Hence, the heart attack is the direct cause of death, the weather event is the indirect cause. This type of death is classified as an 'indirect fatality'.
