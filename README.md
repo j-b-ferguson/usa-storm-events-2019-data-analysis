@@ -18,7 +18,7 @@ This report will analyse and quantify the impact of storm events in 2019 in the 
 # Methods
 
 <p align="justify">
-The analysis performed in this report was completed in SAS with data sets made available by the National Centers for Environmental Information https://www.ncdc.noaa.gov/. Six data sets were extracted and contained the following variables and observations:
+The analysis performed in this report was completed in SAS with data sets made available by the <a href="https://www.ncdc.noaa.gov/">National Centers for Environmental Information</a>. Six data sets were extracted and contained the following variables and observations:
 </p>
 
 Descriptions – contains a narrative about weather event episodes: 2 variables, 10575 observations.
